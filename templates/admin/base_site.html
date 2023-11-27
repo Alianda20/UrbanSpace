@@ -1,5 +1,5 @@
-{% extends 'admin/base.html' %} {% load static %} {% block branding %}
-    {% block title %}Admin{% endblock %}
+{% extends 'admin/base.html' %}
+    {% block title %}Admin{% endblock %}{% load static %} {% block branding %}
 <h1 id="head">
   <img
     src="{% static 'img/logo.jpeg' %}"
@@ -7,7 +7,7 @@
     height="50"
     class="brand_img"
   />
-  Admin Area
+  Administrator
 </h1>
 {% endblock %}
 {% block extrastyle %}
